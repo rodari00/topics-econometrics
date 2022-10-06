@@ -90,7 +90,6 @@ ylabel('$F(\cdot)$','interpreter','latex')
 legend([a,b], 'Male','Female', 'interpreter','latex')
 saveas(gcf,strcat(figures_dir,'/empirical_cdf'),'pdf')
 
-heatmap(tbl,xvar,yvar)
 
 %% Part 3b) Estimate by gender and quantile
 %  Beta is a KxTxG where G is ordered as (M,F)
@@ -122,8 +121,8 @@ else
 
         for t = 1:length(quantiles)
 
-         tau = quantiles(t);
-         fprintf('Running quantile %.3f ...\n',tau)
+         tmp_tau = quantiles(t);
+         fprintf('Running quantile %.3f ...\n',tmp_tau)
 
          options = optimset('MaxIter',10000, 'MaxFunEvals',10000);
          fun = @(x)MLE(X,Y(:,t),x);
