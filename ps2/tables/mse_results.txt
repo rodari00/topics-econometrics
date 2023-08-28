@@ -1,0 +1,7 @@
+Model, MSE
+ AR(4),0.0236
+ Factor Model,0.0270
+ LASSO,0.0248
+ RIDGE,0.0202
+ Bagged Tree,0.0277
+ Ensemble,0.0181

@@ -179,7 +179,7 @@ c = plot(tau,mean(normcdf(Xf*Beta(:,:,1)),1),'-*k'); %mw
 hold off
 xlabel('log(w)','interpreter','latex')
 ylabel('$F(\cdot)$','interpreter','latex')
-legend([a,b,c], 'female','male', 'male $\mid$female','interpreter','latex')
+legend([a,b,c], 'female','male', 'male $\mid$female','interpreter','latex',)
 
 saveas(gcf,strcat(figures_dir,'/counterfactual'),type)
 

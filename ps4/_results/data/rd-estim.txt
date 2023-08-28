@@ -1,0 +1,18 @@
+\begin{table}[]
+\begin{tabular}{@{}lccccc@{}}
+\midrule\midrule\\
+ Variable                          & MSE-Optimal &\multicolumn{1}{c}{RD} & \multicolumn{2}{c}{\underline{Robust Inference}} & Eff. Number  \\
+                                   &  Bandwitdh  &  Estimator    &       p-value          & Conf.Int     & Observations \\\midrule
+Left Voluntarily School & 0.6 & 0.018 & 0.225 & [-0.008, 0.035]  & (8131, 4698)  \\
+\begin{table}[]
+\begin{tabular}{@{}lccccc@{}}
+\midrule\midrule\\
+ Variable                          & MSE-Optimal &\multicolumn{1}{c}{RD} & \multicolumn{2}{c}{\underline{Robust Inference}} & Eff. Number  \\
+                                   &  Bandwitdh  &  Estimator    &       p-value          & Conf.Int     & Observations \\\midrule
+Left Voluntarily School & 0.492 & 0.017 & 0.131 & [-0.005, 0.038]  & (6216, 4026)  \\
+Next Year GPA & 0.6 & 0.199 & 0.003 & [0.048, 0.223]  & (7473, 4047)  \\\bottomrule
+\end{tabular}
+\end{table}
+Next Year GPA & 0.233 & 0.065 & 0.473 & [-0.075, 0.161]  & (2363, 2014)  \\\bottomrule
+\end{tabular}
+\end{table}
